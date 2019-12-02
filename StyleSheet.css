@@ -14,6 +14,7 @@
     float: right;
     padding: 8px;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -35,12 +36,10 @@ img {
     display: block;
     padding-top: 136px;
     margin: 0 auto;
-    
 }
 
-nav {
+.nav {
     top: 0;
-
     display: block;
     margin: auto;
 }
@@ -51,7 +50,6 @@ input {
     scroll-padding-top: 6px;
     text-align: center;
     border-radius: 22px;
-    
 }
 
 #search {
@@ -65,7 +63,6 @@ input {
     position: fixed;
     bottom: 0;
     width: 100%;
-
 }
 
 .bottomright {
