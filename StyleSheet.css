@@ -1,18 +1,6 @@
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.topleft {
-    float: left;
-    padding: 8px;
-}
-
-.topright {
-    float: right;
-    padding: 8px;
+body {
+    font-family: arial, sans-serif;
+    font-size: small;
 }
 
 ul {
@@ -30,12 +18,14 @@ a {
     padding: 8px;
 }
 
-img {
-    width: 272px;
-    height: 92px;
-    display: block;
-    padding-top: 136px;
-    margin: 0 auto;
+.topleft {
+    float: left;
+    padding: 8px;
+}
+
+.topright {
+    float: right;
+    padding: 8px;
 }
 
 .nav {
@@ -44,7 +34,26 @@ img {
     margin: auto;
 }
 
-input {
+.bottomright {
+    float: right;
+    padding: 8px;
+}
+
+.bottomleft {
+    float: left;
+    padding: 8px;
+}
+
+
+#googlelogo {
+    width: 272px;
+    height: 92px;
+    display: block;
+    padding-top: 136px;
+    margin: 0 auto;
+}
+
+#searchbar {
     width: 297px;
     height: 30px;
     scroll-padding-top: 6px;
@@ -60,17 +69,8 @@ input {
 }
 
 #footer {
+    background-color: #f2f2f2;
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-.bottomright {
-    float: right;
-    padding: 8px;
-}
-
-.bottomleft {
-    float: left;
-    padding: 8px;
 }
