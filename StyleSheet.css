@@ -16,6 +16,7 @@ li {
 a {
     display: block;
     padding: 8px;
+    text-decoration: none;
 }
 
 .topleft {
@@ -59,8 +60,8 @@ a {
 }
 
 #searchbar {
-    width: 297px;
-    height: 30px;
+    width: 387px;
+    height: 34px;
     padding: 5px;
     scroll-padding-top: 6px;
     border-radius: 22px;
